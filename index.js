@@ -34,7 +34,7 @@ board.on('ready', function() {
     brightness: function(b) {
       led.brightness(b)
     },
-    kaho: function() {
+    fade: function() {
       led.fade({
         easing: 'outSine',
         duration: 1000,
